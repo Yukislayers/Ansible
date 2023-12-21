@@ -1,0 +1,11 @@
+# Commande d'installation du serveur apache sur http1
+ansible-playbook -i inventaire.ini --user --user-ansible --become --ask-become-pass install-apache.yml
+
+# Commande d'installation de la bdd sur bdd1
+ansible-playbook -i inventaire.ini --user --user-ansible --become --ask-become-pass install-mariadb.yml
+
+# Commande d'installation de mediawiki
+ansible-playbook -i inventaire.ini --user --user-ansible --become --ask-become-pass install-mediawiki.yml
+
+# Commande d'utilisation du module
+ansible-playbook -i inventaire.ini module.yml -K -b
