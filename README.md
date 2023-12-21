@@ -18,3 +18,7 @@ Finally, in the third part, we'll look at an example of a custom module and how 
 ## Technical infrastructure
 
 ![Technical Infrastructure](https://user.oc-static.com/upload/2019/07/12/15629186534987_Capture%20d%E2%80%99e%CC%81cran%202019-07-12%20a%CC%80%2010.01.30.png)
+
+The lab was realized on an Openstack platform with Ubuntu_22.04 VM.
+
+
